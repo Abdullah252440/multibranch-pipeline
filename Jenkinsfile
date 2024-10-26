@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage('checkout'){ 
          steps{
-                //code
+                git branch: 'dev1', url: 'https://github.com/Abdullah252440/multibranch-pipeline.git'
                }
            }
      }
